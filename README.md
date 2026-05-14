@@ -63,7 +63,16 @@ A Eurorack VCO module based on the [AS3340](https://electricdruid.net/product/as
 - Local U4 (79M05) makes −5V from −12V; this becomes the AS3340's VEE pin voltage
 - R39 / R40 (10K) are optional minimum-load resistors
 - D3 / D4 — reverse-polarity protection diodes
-- **AS3340 VEE protection:** Because VEE is driven from −5V (not −12V directly), no current-limiting resistor is needed on the chip's VEE pin. If you ever want to drive VEE from −12V directly, you'd need an 470Ω current limit resistor (see datasheet § Absolute Max).
+
+**AS3340 VEE protection.** The chip has an internal 7.4V Zener; the absolute max for VEE-to-GND is −6V. Because VEE here is driven from −5V (not −12V directly), no current-limiting resistor (REE) is needed.
+
+If you ever modify the design to feed VEE directly from a more-negative rail, the datasheet formula is **REE = (|VEE| − 7.4) / 0.008**:
+
+| VEE supply | REE |
+|---|---|
+| −5V | none |
+| −12V | ~575 Ω |
+| −15V | ~950 Ω (820 Ω works) |
 
 ## Calibration
 
