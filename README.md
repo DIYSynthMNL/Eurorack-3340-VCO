@@ -29,7 +29,7 @@ A Eurorack VCO module based on the AS3340 chip (Electric Druid). A V/oct analog 
 
 What's available for builders, and what's still on the TODO list:
 
-- [x] Schematic PDF (latest Rev 0.1.2) — [3340-VCO-Schematic-Rev0.1.2.pdf](schematic%20pdfs/3340-VCO-Schematic-Rev0.1.2.pdf)
+- [x] Schematic PDF (latest Rev 0.1.2) — [3340-VCO-Schematic-Rev0.1.2.pdf](Schematic%20PDFs/3340-VCO-Schematic-Rev0.1.2.pdf)
 - [x] KiCad source files — [kicad/](kicad/)
 - [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
 - [x] Bill of materials (BOM) — [BOMs - 3340 VCO - Schematic Rev 0.1.0.pdf](BOMs/BOMs%20-%203340%20VCO%20-%20Schematic%20Rev%200.1.0.pdf)
