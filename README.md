@@ -100,10 +100,13 @@ The board has three trim pots that interact. Adjust in this order. You'll need: 
 
 ## References
 
-- [AS3340 datasheet](http://www.alfarzpp.lv/eng/sc/AS3340.pdf)
+Local archived copies live in [`references/`](references/) so this repo stays useful if the upstream links die.
+
+- **AS3340 datasheet** — [local copy](references/AS3340-alfatriode-2020.pdf) · [upstream (alfatriode.lv)](https://alfatriode.lv/eng/sc/AS3340.pdf)
+- **Kassutronics 3340 VCO docs (v2.4)** — [local copy](references/Kassutronics-VCO3340-docs-v2.4.pdf) · [upstream (GitHub)](https://github.com/kassu/kassutronics/tree/master/documentation/VCO%203340) — primary design inspiration
 - [Electric Druid AS3340 product page](https://electricdruid.net/product/as3340-vco/)
 - [Electric Druid CEM3340 VCO designs](https://electricdruid.net/cem3340-vco-voltage-controlled-oscillator-designs/)
-- Design inspiration: [Kassutronics 3340 VCO](https://github.com/kassu/kassutronics/tree/master/documentation/VCO%203340), [YuSynth VCO](https://yusynth.net/Modular/EN/VCO/index.html)
+- [YuSynth VCO](https://yusynth.net/Modular/EN/VCO/index.html)
 - [Tri-to-sine shaping techniques (Tim Stinchcombe)](https://www.timstinchcombe.co.uk/index.php?pge=trisin)
 
 ## Build status
